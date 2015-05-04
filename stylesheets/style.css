@@ -64,230 +64,205 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 4, ../sass/style.scss */
-header {
-  line-height: 50px;
-  background-color: #fcf9f4;
-  color: #888;
+body {
+  padding: 50px 80px;
 }
-/* line 9, ../sass/style.scss */
-header #logo {
-  display: inline-block;
-  height: 45px;
-  width: 85px;
+
+/* line 8, ../sass/style.scss */
+aside {
+  background-color: #449fdb;
+  width: 200px;
+  float: left;
+  display: block;
+}
+/* line 13, ../sass/style.scss */
+aside span {
+  margin: 0 5px;
+}
+/* line 16, ../sass/style.scss */
+aside .logo {
   background: url("../images/logo.png");
-  background-size: cover;
-  float: left;
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
 }
-/* line 18, ../sass/style.scss */
-header nav {
-  float: left;
-  border-left: 1px solid #888888;
-  border-right: 1px solid #888888;
-  margin: 0 25px;
-  padding: 0 15px;
+/* line 23, ../sass/style.scss */
+aside ul {
+  display: block;
+  width: 160px;
+  margin: 30px auto;
 }
-/* line 24, ../sass/style.scss */
-header nav li {
+/* line 27, ../sass/style.scss */
+aside ul li {
+  line-height: 45px;
+}
+/* line 31, ../sass/style.scss */
+aside div {
+  display: block;
+  width: 160px;
+  margin: 30px auto;
+}
+/* line 35, ../sass/style.scss */
+aside div a {
   display: inline-block;
-  margin: 0 10px;
-}
-/* line 30, ../sass/style.scss */
-header .donate {
-  border-color: #888888;
-  color: #888888;
-  margin: 0px;
-  padding: 4px 30px;
-}
-
-/* line 38, ../sass/style.scss */
-.float-right {
-  float: right;
-}
-
-/* line 42, ../sass/style.scss */
-.float-left {
-  float: left;
-  height: 100%;
-}
-
-/* line 47, ../sass/style.scss */
-.clear {
-  clear: both;
-}
-
-/* line 51, ../sass/style.scss */
-.button {
-  border: 1px solid white;
+  width: 150px;
+  height: 25px;
+  border: 1px solid #333;
   border-radius: 5px;
-  padding: 8px 60px;
-  color: white;
-  margin: 30px;
-}
-
-/* line 59, ../sass/style.scss */
-.trans-white {
-  background-color: rgba(255, 255, 255, 0.5);
-  border: none;
-  padding: 9px 61px;
-}
-
-/* line 65, ../sass/style.scss */
-.trans-black {
-  background-color: rgba(0, 0, 0, 0.3);
-  border: none;
-}
-
-/* line 70, ../sass/style.scss */
-.yellow-bkg {
-  background-color: #ffcd62;
-  color: black;
-  border: none;
-}
-
-/* line 76, ../sass/style.scss */
-.centralized {
-  width: 650px;
-  margin: 0 auto;
-}
-
-/* line 81, ../sass/style.scss */
-.text-left {
-  text-align: left;
-}
-
-/* line 85, ../sass/style.scss */
-.text-right {
-  text-align: right;
-}
-
-/* line 89, ../sass/style.scss */
-section {
-  height: 280px;
-  padding: 150px 0;
   text-align: center;
-  width: 100%;
-  color: white;
+  line-height: 25px;
+  margin: 10px 0;
 }
-/* line 95, ../sass/style.scss */
-section p {
-  margin: 30px;
+
+/* line 48, ../sass/style.scss */
+section {
+  background-color: coral;
+  display: block;
+  float: left;
+  width: 896px;
+}
+/* line 53, ../sass/style.scss */
+section .float-title p {
+  line-height: 20px;
+}
+/* line 55, ../sass/style.scss */
+section .float-title p:nth-child(1) {
+  background-color: white;
+  text-align: right;
+  color: black;
+  float: right;
+  margin-top: 50px;
+}
+/* line 62, ../sass/style.scss */
+section .float-title p:nth-child(2) {
+  background-color: white;
+  color: black;
+  float: right;
+  margin-top: 80px;
+}
+/* line 68, ../sass/style.scss */
+section .float-title p:nth-child(3) {
+  background-color: white;
+  color: black;
+  float: right;
+  margin-top: 110px;
+}
+/* line 76, ../sass/style.scss */
+section ul li {
+  height: 85px;
+  width: 25%;
+  margin: 0;
+  float: left;
+  padding: 20px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 85, ../sass/style.scss */
+section ul li:nth-child(3) {
+  background-color: darkseagreen;
+}
+
+/* line 92, ../sass/style.scss */
+footer {
+  background-color: darkslateblue;
+}
+
+/* line 96, ../sass/style.scss */
+a {
+  text-decoration: none;
 }
 
 /* line 100, ../sass/style.scss */
-.image-div {
-  width: 200px;
-  margin: 100px 40px 0px 40px;
-}
-
-/* line 105, ../sass/style.scss */
-.sixty {
-  width: 59%;
-}
-
-/* line 110, ../sass/style.scss */
-h1 {
-  font-size: 40px;
-  margin-top: 70px;
-  margin-bottom: 30px;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-}
-
-/* line 119, ../sass/style.scss */
 h2 {
-  font-size: 30px;
-  margin-top: 60px;
-  margin-bottom: 25px;
-  margin-left: 30px;
-  margin-right: 30px;
-  color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
+  margin: 10px 0;
 }
 
-/* line 130, ../sass/style.scss */
-.online {
-  background: url("../images/bkgnd.jpg");
-  background-size: cover;
+/* line 113, ../sass/style.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-/* line 135, ../sass/style.scss */
-.mission {
-  background-color: #fcf9f4;
-  color: #000;
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?-5gq95c");
+  src: url("fonts/icomoon.eot?#iefix-5gq95c") format("embedded-opentype"), url("fonts/icomoon.woff?-5gq95c") format("woff"), url("fonts/icomoon.ttf?-5gq95c") format("truetype"), url("fonts/icomoon.svg?-5gq95c#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-/* line 138, ../sass/style.scss */
-.mission h2 {
-  color: #000;
-}
-/* line 141, ../sass/style.scss */
-.mission p {
-  width: 800px;
-  display: block;
-  margin: 30px auto;
-}
-
-/* line 148, ../sass/style.scss */
-.students {
-  background-color: #91d0b1;
-}
-
-/* line 152, ../sass/style.scss */
-.prospective {
-  background-color: #ffcd62;
+/* line 132, ../sass/style.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 156, ../sass/style.scss */
-.partners {
-  background-color: #80a8cc;
+/* line 146, ../sass/style.scss */
+.icon-pen:before {
+  content: "\e908";
 }
 
-/* line 160, ../sass/style.scss */
-.progress {
-  background-color: #fcf9f4;
-  color: #000;
-  padding-top: 60px;
-  padding-bottom: 170px;
+/* line 150, ../sass/style.scss */
+.icon-library:before {
+  content: "\e921";
 }
-/* line 165, ../sass/style.scss */
-.progress h2 {
-  color: #000;
+
+/* line 154, ../sass/style.scss */
+.icon-coin-yen:before {
+  content: "\e93e";
 }
-/* line 168, ../sass/style.scss */
-.progress h3 {
-  margin: 50px 20px;
-  font-size: 50px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
+
+/* line 158, ../sass/style.scss */
+.icon-envelop:before {
+  content: "\e945";
 }
+
+/* line 162, ../sass/style.scss */
+.icon-map2:before {
+  content: "\e94c";
+}
+
+/* line 166, ../sass/style.scss */
+.icon-mug:before {
+  content: "\e9a2";
+}
+
+/* line 170, ../sass/style.scss */
+.icon-lab:before {
+  content: "\e9aa";
+}
+
 /* line 174, ../sass/style.scss */
-.progress li {
-  display: inline-block;
-  width: 240px;
-  height: 230px;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
-  margin: 30px;
-}
-/* line 181, ../sass/style.scss */
-.progress li:nth-last-child(1) {
-  color: #80a8cc;
-}
-/* line 184, ../sass/style.scss */
-.progress li:nth-last-child(2) {
-  color: #ffcd62;
-}
-/* line 187, ../sass/style.scss */
-.progress li:nth-last-child(3) {
-  color: #91d0b1;
+.icon-magnet:before {
+  content: "\e9ab";
 }
 
-/* line 193, ../sass/style.scss */
-footer {
-  height: 60px;
-  background-color: #4d4e59;
-  text-align: center;
-  color: white;
-  line-height: 60px;
+/* line 178, ../sass/style.scss */
+.icon-link:before {
+  content: "\e9cb";
+}
+
+/* line 182, ../sass/style.scss */
+.icon-facebook:before {
+  content: "\ea8c";
+}
+
+/* line 186, ../sass/style.scss */
+.icon-twitter:before {
+  content: "\ea91";
+}
+
+/* line 190, ../sass/style.scss */
+.icon-feed2:before {
+  content: "\ea94";
 }
