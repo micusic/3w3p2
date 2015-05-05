@@ -6,7 +6,7 @@ body {
 }
 
 aside{
-  background-color: #449fdb;
+//  background-color: #449fdb;
   width: 200px;
   float: left;
   display: block;
@@ -46,7 +46,7 @@ aside{
 }
 
 section{
-  background-color: coral;
+//  background-color: coral;
   display: block;
   float: left;
   width: 896px;
@@ -72,7 +72,8 @@ section{
         margin-top: 110px;
       }
   }
-  ul{
+  .hero ul{
+    margin-top: -3px;
     li{
       height: 85px;
       width: 25%;
@@ -87,10 +88,63 @@ section{
       }
     }
   }
+
+  .contact{
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    padding: 0 10px;
+    margin: 30px 0;
+    border-top: 1px dotted grey;
+    border-bottom: 1px dotted grey;
+    span{
+      float: left;
+      line-height: 30px;
+    }
+    p{
+      font-size: 10px;
+      line-height: 12px;
+      float: left;
+      width: 400px;
+      text-align: left;
+      margin: 3px 10px;
+    }
+  }
+
+  .thumb-list{
+    ul{
+      li{
+        height: 300px;
+        width: 25%;
+        margin: 0;
+        float: left;
+//        padding: 20px 20px;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        img{
+          width: 180px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 10px;
+          border: 1px solid gray;
+          border-radius: 5px;
+        }
+        h3,
+        p{
+          text-align: left;
+          margin: 10px 10px;
+        }
+      }
+    }
+  }
 }
 
 footer{
   background-color: darkslateblue;
+  height: 50px;
 }
 
 a{
@@ -110,7 +164,8 @@ h2{
 
 
 .clearfix {
-  &:after {
+  &:after,
+  &:before{
     content: "";
     display: block;
     clear: both;
